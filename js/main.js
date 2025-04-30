@@ -36,14 +36,15 @@ $(document).ready(function () {
     var video = $("#background-video");
     var source = video.find("source");
 
-    if ($(window).width() < 1000) {
-      source.attr("src", "video/joinus-phone.mp4");
-    } else {
-      source.attr("src", "video/joinus.mp4");
-    }
+    var currentSrc = source.attr("src");
+    var newSrc =
+      $(window).width() < 1000 ? "video/joinus-phone.mp4" : "video/joinus.mp4";
 
-    video[0].load(); // Reload video with new source
-    video[0].play(); // Ensure autoplay resumes
+    if (currentSrc !== newSrc) {
+      source.attr("src", newSrc);
+      video[0].load(); // Reload video with new source
+      video[0].play(); // Ensure autoplay resumes
+    }
   }
 
   // Run on page load and on resize
