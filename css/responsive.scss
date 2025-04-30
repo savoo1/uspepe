@@ -1,0 +1,648 @@
+@media (max-width: 1600px) {
+    .hero .gif2 {
+        max-width: 600px;
+        left: calc(50% - 800px);
+    }
+    .hero .gif1 {
+        max-width: 1100px;
+        left: calc(50% - 660px);
+    }
+    .whyus .boxes {
+        gap: 16px;
+        .box {
+            width: calc(50% - 8px);
+        }
+    }
+    .whyus h2 {
+        font-size: 80px;
+    }
+    .whyus .boxes .box {
+        min-height: 330px;
+    }
+    .audit .gif4 {
+        max-width: 800px;
+        right: calc(50% - 800px);
+    }
+    .tokenomics .gif5 {
+        margin-left: 0;
+    }
+    .tokenomics .boxes {
+        left: calc(50% + 50px);
+        margin-right: 15px;
+    }
+    .roadmap .boxees .box {
+        width: calc(50% - 107px);
+    }
+    .joinus {
+        padding-top: 250px;
+        padding-bottom: 250px;
+        min-height: unset;
+    }
+    .joinus video {
+        left: -200px;
+    }
+}
+@media (max-width: 1350px) {
+    nav .middle {
+        right: 220px;
+    }
+    nav .middle ul {
+        gap: 20px;
+    }
+    .aboutus h2,
+    .tokenomics h2,
+    .audit h2,
+    .joinus .box .cont h2,
+    .roadmap h2,
+    .whyus h2 {
+        font-size: 68px;
+    }
+    .tokenomics h4 {
+        font-size: 34px;
+    }
+    .whyus h2 {
+        max-width: 470px;
+    }
+    .whyus .gif3 {
+        max-width: 660px;
+        left: calc(50% - 700px);
+    }
+    .audit {
+        padding-top: 100px;
+        min-height: unset;
+        padding-bottom: 300px;
+    }
+    .joinus .box .cont p,
+    .audit p {
+        font-size: 24px;
+    }
+    .joinus video {
+        left: -300px;
+    }
+    .joinus {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .joinus .box .cont {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 1200px) {
+    nav .left {
+        .logo {
+            max-width: 190px;
+        }
+    }
+    nav .right {
+        gap: 10px;
+    }
+    nav .soc-m {
+        gap: 7px;
+    }
+    nav .middle ul li a {
+        font-size: 16px;
+    }
+    nav .middle {
+        right: 210px;
+    }
+    .hero .gif2 {
+        max-width: 520px;
+        left: calc(50% - 640px);
+    }
+    .hero .gif1 {
+        max-width: 790px;
+        left: calc(50% - 550px);
+    }
+    .hero .content h1 {
+        font-size: 110px;
+    }
+    .hero .content h2 {
+        font-size: 36px;
+    }
+    .hero .content p {
+        font-size: 22px;
+        max-width: 420px;
+    }
+    .whyus {
+        padding-top: 100px;
+        padding-bottom: 400px;
+    }
+    .tokenomics {
+        min-height: unset;
+        padding-top: 100px;
+    }
+    .roadmap {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .whyus h2,
+    .roadmap h2 {
+        text-align: center;
+        margin: auto;
+    }
+    .whyus .boxes {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 50px;
+        align-items: start;
+        align-items: stretch; /* Stretch children to same height */
+        .box {
+            min-height: 100%; /* Optional: not needed if using stretch */
+        }
+    }
+    .whyus .gif3 {
+        max-width: 660px;
+        left: calc(50% - 330px);
+    }
+    .audit .gif4 {
+        max-width: 700px;
+        right: calc(50% - 560px);
+    }
+    .tokenomics .gif5 {
+        margin-left: 0;
+        max-width: 680px;
+    }
+    footer .left {
+        max-width: 210px;
+    }
+    footer .middle ul {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    nav .language-dropdown {
+        position: relative;
+        border-radius: 10px;
+        max-height: unset;
+        width: 100%;
+        max-width: 100%;
+    }
+    nav .middle {
+        position: relative;
+        left: unset;
+        right: unset;
+    }
+    nav .left {
+        position: relative;
+        z-index: 10;
+    }
+    nav .right {
+        position: fixed;
+        flex-direction: column;
+        top: 0px;
+        background-color: #0d0827;
+        left: 0;
+        right: 0;
+        gap: 24px;
+        padding-bottom: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding-top: 30px;
+        max-height: calc(100vh - 91px);
+        overflow: auto;
+        justify-content: start;
+        visibility: hidden;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    nav .middle {
+        max-width: 300px;
+        width: 100%;
+    }
+    nav .middle ul {
+        flex-direction: column;
+        gap: 30px;
+        text-align: left;
+        align-items: start;
+    }
+    nav .language-switcher .choosen,
+    nav .language-switcher {
+        max-width: 300px;
+        width: 100%;
+    }
+    nav .language-switcher {
+        order: 3;
+    }
+    nav .soc-m {
+        order: 4;
+    }
+    nav .language-switcher .choosen {
+        justify-content: start;
+        .arrow-d {
+            position: absolute;
+            right: 15px;
+        }
+    }
+    nav .buy-uspepe {
+        max-width: 300px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    nav {
+        .lines {
+            display: flex !important;
+            flex-direction: column;
+            gap: 3px;
+            padding: 5px;
+            cursor: pointer;
+            border: 2px solid #dc3eee;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            position: relative;
+            z-index: 10;
+            .line {
+                width: 18px;
+                height: 2px;
+                background-color: #dc3eee;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+    nav .row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar.active {
+        background-color: #0d0827;
+    }
+    .navbar.active .lines {
+        .line:nth-child(1) {
+            transform: rotate(50deg);
+        }
+        .line:nth-child(2) {
+            transform: rotate(-50deg);
+            margin-top: -5px;
+        }
+        .line:nth-child(3) {
+            transform: rotate(50deg);
+            margin-top: -7px;
+            opacity: 0;
+        }
+    }
+    .navbar.active .right {
+        opacity: 1;
+        visibility: visible;
+        top: 91px;
+    }
+
+    .hero {
+        padding-top: 135px;
+        padding-bottom: 400px;
+    }
+    .hero .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .content h1 {
+        font-size: 69.183px;
+        text-align: center;
+    }
+    .hero .content h2 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 7px;
+    }
+    .hero .content p {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 9px;
+    }
+    .hero .connect-wallet {
+        margin: 0;
+        margin-top: 30px;
+        padding: 16px;
+        min-height: unset;
+    }
+    .hero .gif1 {
+        max-width: 740px;
+        left: calc(50% - 260px);
+    }
+    .hero .gif2 {
+        max-width: 470px;
+        left: calc(50% - 350px);
+    }
+    .hero .connect-wallet h3 {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    .hero .connect-wallet .time {
+        margin-top: 20px;
+    }
+    .hero .connect-wallet .loading-line {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .hero .connect-wallet .input {
+        margin-top: 15px;
+    }
+    .hero .connect-wallet .ch-line {
+        margin-top: 15px;
+    }
+    .logos-slide img {
+        max-height: 28px;
+    }
+    .logos-wrapper {
+        height: 70px;
+    }
+    .hero .connect-wallet .btns-cw a {
+        width: calc(50% - 8px);
+    }
+    .tokenomics h2,
+    .aboutus h2,
+    .audit h2,
+    .joinus .box .cont h2,
+    .roadmap h2,
+    .whyus h2 {
+        font-size: 48px;
+    }
+    .roadmap .boxees {
+        margin-top: 100px;
+    }
+    .aboutus .videof {
+        height: 500px;
+    }
+    .aboutus {
+        min-height: unset;
+    }
+    .audit h2 {
+        text-align: center;
+    }
+    .joinus .box .cont p,
+    .audit p {
+        margin: auto;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .audit .btns {
+        justify-content: center;
+    }
+    .audit .gif4 {
+        max-width: 490px;
+        right: calc(50% - 230px);
+    }
+    .tokenomics .gif5 {
+        max-width: 530px;
+        margin-left: calc(50% - 230px);
+        transform: translateX(-50%);
+    }
+    .tokenomics .boxes {
+        left: calc(50% - 40px);
+        margin-right: 15px;
+        top: 150px;
+    }
+    .tokenomics .boxes .box {
+        font-size: 26px;
+    }
+    .roadmap .boxees .box {
+        padding: 20px;
+    }
+    .roadmap .boxees .box h3 {
+        font-size: 20px;
+    }
+    .roadmap .boxees .box p {
+        font-size: 16px;
+        margin-top: 13px;
+    }
+    .joinus {
+        padding-top: 100px;
+        padding-bottom: 90vw;
+    }
+    .joinus .box .cont h2 {
+        text-align: center;
+    }
+    .joinus .btns {
+        justify-content: center;
+    }
+    .joinus .box .cont {
+        margin: auto;
+    }
+    .joinus video {
+        left: 0;
+        top: unset;
+        bottom: 0;
+    }
+    footer .cont {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 772px) {
+    .aboutus,
+    .roadmap,
+    .whyus {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .audit,
+    .tokenomics {
+        padding-top: 70px;
+    }
+    .aboutus .videof {
+        height: 340px;
+    }
+    .whyus h2 {
+        max-width: 500px;
+        margin: 0;
+        text-align: left;
+    }
+    .whyus .boxes .box {
+        width: 100%;
+    }
+    .whyus {
+        padding-bottom: 400px;
+    }
+    .audit p {
+        font-size: 22px;
+    }
+    .tokenomics .boxes {
+        position: relative;
+        margin: auto;
+        left: 0;
+        top: unset;
+        margin-top: 32px;
+    }
+    .tokenomics .gif5 {
+        margin-left: 50%;
+    }
+    .roadmap .boxees {
+        margin-top: 50px;
+    }
+    .roadmap .boxees .box-pl {
+        justify-content: end;
+    }
+    .roadmap .boxees .box .triangle:after {
+        border-right: 22px solid #fff;
+        left: 5px;
+        right: unset;
+        border-left: unset;
+    }
+    .roadmap .boxees .box .triangle {
+        border-right: 22px solid #000;
+        right: unset;
+        border-left: unset;
+        left: -22px;
+    }
+    .roadmap .boxees:after {
+        left: 23px;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+    }
+    .roadmap .boxees .box {
+        width: calc(100% - 200px);
+    }
+    .roadmap .boxees .box-pl .box .no {
+        width: 54px;
+        height: 54px;
+        left: -90px !important;
+        right: unset !important;
+        .in2 {
+            width: 45px;
+            height: 45px;
+            .in {
+                width: 31px;
+                height: 31px;
+                font-size: 19.212px;
+            }
+        }
+    }
+    .roadmap .boxees .box {
+        width: calc(100% - 87px);
+        max-width: 100%;
+        min-height: unset;
+    }
+    .joinus .right-shadow {
+        width: 100%;
+        top: 0;
+        background: rgba(0, 2, 27, 0.3);
+    }
+}
+
+@media (max-width: 500px) {
+    .hero .connect-wallet .row-inputs {
+        flex-direction: column;
+        width: 100%;
+        .input {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 0px;
+        }
+    }
+    footer .left {
+        img {
+            max-width: 200px;
+        }
+    }
+    footer .middle ul {
+        flex-direction: column;
+    }
+    footer .buy-uspepe {
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    footer .right {
+        flex-direction: column;
+        width: 100%;
+        .soc-m {
+            order: 2;
+        }
+    }
+    .aboutus h2,
+    .joinus .box .cont h2,
+    .audit h2,
+    .tokenomics h2,
+    .roadmap h2,
+    .whyus h2 {
+        font-size: 32px;
+    }
+    .tokenomics h4 {
+        font-size: 28px;
+    }
+    .audit p,
+    .joinus .box .cont p {
+        font-size: 18px;
+    }
+    .joinus .btns {
+        flex-wrap: wrap;
+    }
+    .audit .btns {
+        flex-direction: column;
+        a {
+            width: 100%;
+        }
+    }
+    .aboutus .videoplace {
+        margin-top: 20px;
+    }
+    .aboutus .videof {
+        height: 220px;
+    }
+    .aboutus .videoplace .place {
+        width: 55px;
+    }
+    .whyus .boxes {
+        margin-top: 24px;
+    }
+    .whyus .boxes .box {
+        padding: 24px;
+    }
+    .whyus .boxes .box h3 {
+        font-size: 20px;
+    }
+    .whyus .boxes .box p {
+        font-size: 18px;
+    }
+    .whyus .gif3 {
+        max-width: 520px;
+        left: calc(50% - 260px);
+    }
+    .whyus {
+        padding-bottom: 320px;
+    }
+    .tokenomics .boxes .box {
+        font-size: 24px;
+        padding: 24px;
+    }
+}
+@media (max-width: 430px) {
+    .hero .connect-wallet .time .box {
+        width: calc(25% - 3px);
+    }
+    .joinus {
+        padding-bottom: 110vw;
+    }
+}
+
+@media (max-width: 370px) {
+    .hero .connect-wallet .input .p-place {
+        font-size: 12px;
+    }
+    .hero .connect-wallet .lastp .l a {
+        font-size: 12px;
+    }
+    .hero .connect-wallet .lastp .r {
+        font-size: 11px;
+    }
+    .joinus {
+        padding-bottom: 130vw;
+    }
+    .joinus video {
+        margin-left: -30vw;
+    }
+}
