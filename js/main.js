@@ -2,6 +2,16 @@ $(document).ready(function () {
   AOS.init();
 });
 
+$(document).ready(function () {
+  $(".videoplace").click(function () {
+    // Add 'active' class to the videoplace div
+    $(this).addClass("active");
+
+    // Find and play the video inside this div
+    $(this).find(".videof")[0].play();
+  });
+});
+
 $(".hero .changetab").click(function (e) {
   e.preventDefault();
   $(".hero .changetab.active").removeClass("active");
